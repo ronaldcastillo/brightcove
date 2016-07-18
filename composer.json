@@ -1,0 +1,14 @@
+{
+    "name": "contemporaryva/brightcove",
+    "require": {
+        "illuminate/support": "5.2.*",
+        "illuminate/contracts": "5.2.*",
+        "guzzlehttp/guzzle": "5.2.*",
+        "nesbot/carbon": "1.21.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContemporaryVA\\BrightCove\\": "src/BrightCove"
+        }
+    }
+}
