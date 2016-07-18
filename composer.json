@@ -1,5 +1,5 @@
 {
-    "name": "contemporaryva/brightcove",
+    "name": "ronaldcastillo/brightcove",
     "require": {
         "illuminate/support": "5.2.*",
         "illuminate/contracts": "5.2.*",
