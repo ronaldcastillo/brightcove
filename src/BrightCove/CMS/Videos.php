@@ -24,7 +24,6 @@ class Videos extends ServiceAbstract
 
     public function findById($videoId, $forceFetch = false)
     {
-        var_dump('hey');
         if (false === $forceFetch) {
             $video = event(new VideoIsBeingFetched($videoId))[0];
 

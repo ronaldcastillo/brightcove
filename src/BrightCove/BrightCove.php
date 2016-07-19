@@ -144,8 +144,6 @@ class BrightCove extends BrightCoveInterface
     public function authenticate()
     {
 
-        var_dump('Called the authentication');
-
         $client = new Client();
 
         $response = $client->post(self::BRIGHTCOVE_AUTHENTICATION_URL, array(
