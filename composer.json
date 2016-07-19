@@ -1,9 +1,9 @@
 {
     "name": "ronaldcastillo/brightcove",
     "require": {
-        "illuminate/support": "5.2.*",
-        "illuminate/contracts": "5.2.*",
-        "guzzlehttp/guzzle": "5.2.*",
+        "illuminate/support": "4.*",
+        "illuminate/contracts": "4.*",
+        "guzzlehttp/guzzle": "4.*",
         "nesbot/carbon": "1.21.*"
     },
     "autoload": {
